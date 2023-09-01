@@ -1,10 +1,6 @@
 #David Cappel Project
-
-print("Hello")
-x= 15
-y = 12
-g = 35
-if g>y:
-    print("goodbye")
-else:
-    print("Hello again")
+g= str(input("What is my name:"))
+if g[0] == "d":
+    print("Must be capitol")
+elif g[0] == "D":
+    print("perfect")
